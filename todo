@@ -23,4 +23,6 @@ interactive firewall configuration. user tells script what ports are needed and 
 
 enabling of logs, application of event viewer filters if possible so logs are usable
 
+maybe downloading and applying of critical security updates
+
 restart the box
