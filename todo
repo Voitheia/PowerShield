@@ -27,4 +27,6 @@ maybe downloading and applying of critical security updates
 
 relocating cmd and powershell or modifying them to make using them difficult
 
+configure powershell execution policy
+
 restart the box
