@@ -1,23 +1,33 @@
 #TODO
 
-operating system detection if some powershell cmdlets work or don't on specific OSs
-
-DC detection, script performs different actions if run on a DC
++-- organized in priority of what should be done first and won't be too hard --+
 
 automatic password changing of all users
 
-automatic password rotation?
-  I don't think we want the script running all the time as to keep red team from taking advantage of it
-
-disabling SMBv1
+disabling SMBv1 - registry keys and powershell one liners
 
 RDP security through registry keys
 
 mimikatz defence through registry keys
 
-maybe some detection of common services that are running on the computer
-
 disabling of unnecessary services
+
+downloading a few sysinternals tools, namely autoruns, tcpview, psexp and procmon
+
+configure powershell execution policy
+
+restart the box
+
++-- this stuff isn't as high a priority, and is probably harder to do than the stuff above --+
+
+operating system detection if some powershell cmdlets work or don't on specific OSs
+
+DC detection, script performs different actions if run on a DC
+
+automatic password rotation?
+  I don't think we want the script running all the time as to keep red team from taking advantage of it
+
+maybe some detection of common services that are running on the computer
 
 interactive firewall configuration. user tells script what ports are needed and script configures the rest
 
@@ -26,7 +36,3 @@ enabling of logs, application of event viewer filters if possible so logs are us
 maybe downloading and applying of critical security updates
 
 relocating cmd and powershell or modifying them to make using them difficult
-
-configure powershell execution policy
-
-restart the box
