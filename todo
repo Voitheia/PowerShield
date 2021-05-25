@@ -40,3 +40,5 @@ enabling of logs, application of event viewer filters if possible so logs are us
 maybe downloading and applying of critical security updates
 
 relocating cmd and powershell or modifying them to make using them difficult
+
+backing up cmd, and maybe some detected services
