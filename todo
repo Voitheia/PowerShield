@@ -2,7 +2,11 @@
 
 +-- organized in priority of what should be done first and won't be too hard --+
 
-automatic password changing of all users
+automatic password changing of Administrator
+
+automatic disabling or password changing of other users
+
+creation of backup admin account
 
 disabling SMBv1 - registry keys and powershell one liners
 
